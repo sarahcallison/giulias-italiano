@@ -1,0 +1,233 @@
+/*-- Body --*/
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+/* Logo */
+
+.logo {
+    text-align: center; 
+    margin: 0;
+}
+
+.logo-fig {
+    margin-bottom: 0;
+}
+
+.logo-fig img {
+    width: 300px;
+    height: 150px;
+}
+
+/* Wrapper - responsive site */
+
+/* Mobile */
+
+@media only screen and (max-width: 600px){
+
+/* Nav */
+    
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+nav a {
+    padding: 10px;
+    color: rgb(85, 84, 84);
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #a7a6a6;
+}
+
+} 
+
+/* Desktop */
+
+@media only screen and (min-width: 601px) {
+
+/*-- Nav --*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    padding: 20px 20px 10px 20px;
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #a7a6a6;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-nav, .right-nav {
+    padding-top: 100px;
+}
+
+}
+
+/*-- Main Body Format --*/
+
+/* index */
+
+.banner-img {
+    margin: 30px 0px 0px 0px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.home-quote {
+    color: rgb(85, 84, 84);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.quote-container {
+    position: relative;
+    bottom: 265px;
+    width: 320px;
+    margin-left: 45px;
+    /* margin-bottom: 130px; */
+    text-align: left;
+}
+
+.home-text {
+    color: rgb(85, 84, 84);
+    font-size: 1.2rem;
+    margin-top: 140px;    
+}
+
+.home-text a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.home-text a:hover {
+    color: #a7a6a6;
+}
+
+.home-text2 {
+    color: rgb(85, 84, 84);
+    font-size: 1.2rem;
+    margin-top: 30px;  
+}
+
+/* ingredients page */
+
+.ing-text {
+    color: rgb(85, 84, 84);
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+
+.ing-text a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.ing-text a:hover {
+    color: #a7a6a6;
+}
+
+.ing-container {
+    margin: 100px 0px;
+}
+
+/* reservations page */
+
+.res-instruction {
+    font-size: 1.2rem;
+    margin: 25px 0px;
+}
+
+.reservation {
+    text-align: left;
+}
+
+.reservation fieldset {
+    border: 1px solid rgb(85, 84, 84);
+    border-radius: .7rem;
+    padding: 20px;
+    margin: 25px 15%;
+}
+
+.reservation label {
+    display: block;
+}
+
+.reservation span {
+    display: block;
+    padding-top: 20px;
+}
+
+.reservation input {
+    border: none;
+    border-radius: .5rem;
+    padding: 10px;
+    color: rgb(85, 84, 84);
+    background-color: beige;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.reservation .res-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin: 20px 0px 0px 200px;
+}
+
+.confirm-text {
+margin: 150px 0px 20% 0px;
+}
+
+/* remember to copy and paste all main content into mobile media query with homepage quote deleted */
+
+/* footer */
+
+footer {
+text-align: center;
+background-color: black;
+color: white;
+padding: 15px;
+text-align: center;
+/* margin-top: 55px; */
+margin-top: 25vh;
+font-size: 0.8rem;
+letter-spacing: 2.5px;
+}

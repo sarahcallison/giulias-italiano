@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giulia's Italiano Reservations</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body>
+        <div id="wrapper">
+
+                <div class="logo">
+                        <a href="index.html"><figure class="logo-fig"><img src="giuila-logo.png" alt="Giulia's Italiano Logo"/></figure></a>
+                        </div>
+    <!-- Start of the navigation -->
+    <nav>
+                <div class="nav-container">
+                    <ul>
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="locations.html">LOCATIONS</a></li>                        
+                        <li class="active"><a href="reservations.html">RESERVATIONS</a></li>
+                        <li><a href="ingredients.html">INGREDIENTS</a></li>
+                        </ul>
+                </div>
+    </nav>
+
+    <!-- Start of the main content -->
+    <main>
+
+            <figure class="banner-img"><img src="images/res-img.gif" alt="Image of pasta dish" />
+            </figure>
+<p class="res-instruction">PLEASE SUBMIT THE FORM TO COMPLETE YOUR RESERVATION</p>
+        <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="reservation"
+            class="reservation">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label><span>Name</span><input class="user-info" name="name" type="text" placeholder="Your name here"
+                        required></label>
+                <label><span>Email Address</span><input class="user-info" name="email" type="email"
+                        placeholder="example@email.com" required></label>
+                <label><span>Phone Number</span><input class="user-info" name="phone" type="tel"
+                        placeholder="(123) 456-7890" pattern="[0-9-.] {10,14}"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Meal Information</legend>
+                <label><span>Date</span><input name="date" type="text" placeholder="01/01/1001" required></label>
+                <label><span>Time</span><input name="time" type="text" placeholder="0:00 AM" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What is your preferred reminder method?</legend>
+                <label><span>Email</span><input name="reminder" type="radio" value="Email"></label>
+                <label><span>Phone Call</span><input name="reminder" type="radio" value="Phone Call"></label>
+                <label><span>Text Message</span><input name="reminder" type="radio" value="Text Message"></label>
+
+            </fieldset>
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+                <label><span>Internet Ad</span><input name="hear-internet" type="checkbox" value="internet"></label>
+                <label><span>Radio Ad</span><input name="hear-radio" type="checkbox" value="radio"></label>
+                <label><span>Word of Mouth</span><input name="hear-friend" type="checkbox" value="friend"></label>
+                <label><span>Other</span><textarea></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label><span>Credit Card Information</span>
+                <select name="credit-card">
+                    <option value="mastercard">Mastercard</option>
+                    <option value="visa">Visa</option>
+                    <option value="express">American Express</option>
+                    <option value="discover">Discover</option>
+                </select>
+                </label>
+            </fieldset>
+            <input class="res-button" type="submit" name="submit" value="SUBMIT RESERVATION">
+            <input type="hidden" name="redirect" value="confirm.html">
+        </form>
+
+    </main>
+
+    <!-- Start of the footer -->
+    <footer>
+        <p>&copy; 2019 &bull; CREATED FOR EDUCATIONAL PURPOSES BY SARAH CALLISON</p>
+
+    </footer>
+    </div>
+</body>
+
+</html>
