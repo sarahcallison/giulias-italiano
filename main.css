@@ -156,11 +156,11 @@ nav ul li a:hover {
 .menu-button {
     color: white;
     background-color: black;
-    padding: 17px 40px;
+    padding: 17px;
     margin: 0px 40px;
     text-decoration: none;
     text-align: center;
-    width: 155px;
+    width: 125px;
     font-size: .9rem;
    /* display: inline-block; */
 }
