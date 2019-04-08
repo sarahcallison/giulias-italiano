@@ -233,29 +233,43 @@ figure.banner-img {
 
 /* locations page */
 
+.map, .video, .audio {
+    text-align: center;
+}
+
 iframe.map {
-    border: 1px solid #000000;
-    width: 100%;
-    margin-left: 10px;
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    border: none;
 }
 
 iframe.video {
-width: 98%;
-margin-left: 10px;
+width: 50%;
+margin-left: 25%;
 height: 320px;
 margin-bottom: 20px;
 }
 
-table {
-    width: 100%;
+audio {
+    margin-left: 40%;
+    margin-bottom: 50px;
 }
 
-table tr {
-    font-size: 1rem;
+table {
+    width: 100%
 }
 
 table tr:nth-child(even) {
-background-color: #a7a6a6;
+background-color: #c0bebe;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+    font-size: 1.1rem;
 }
 
 table tr:hover {
@@ -263,6 +277,11 @@ table tr:hover {
     background-color: rebeccapurple;    
 }
 
+td {
+    padding: 5px;
+    color: rgb(39, 39, 39);
+    font-size: 0.95rem;
+}
 /* reservations page */
 
 .res-instruction {
