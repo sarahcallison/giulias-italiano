@@ -233,55 +233,28 @@ figure.banner-img {
 
 /* locations page */
 
-.map, .video, .audio {
-    text-align: center;
+.locationContainer {
+    display: flex;
+}
+
+.addressColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px 0 65px;
+}
+
+.addressContainer {
+    margin-bottom: 15px;
 }
 
 iframe.map {
     width: 50%;
     height: 400px;
-    margin-left: 25%;
-    margin-bottom: 25px;
+    margin: 35px auto;
     border: none;
 }
 
-iframe.video {
-width: 50%;
-margin-left: 25%;
-height: 320px;
-margin-bottom: 20px;
-}
-
-audio {
-    margin-left: 40%;
-    margin-bottom: 50px;
-}
-
-table {
-    width: 100%
-}
-
-table tr:nth-child(even) {
-background-color: #c0bebe;
-}
-
-th {
-    background-color: maroon;
-    color: white;
-    padding: 5px;
-    font-size: 1.1rem;
-}
-
-table tr:hover {
-    color: white;
-    background-color: rebeccapurple;    
-}
-
-td {
-    padding: 5px;
-    color: rgb(39, 39, 39);
-    font-size: 0.95rem;
-}
 /* reservations page */
 
 .res-instruction {
