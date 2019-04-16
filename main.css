@@ -204,31 +204,27 @@ figure.banner-img {
     text-align: center;
 }
 
-.brochure {
-    text-align: center;
-}
-
 /* menu page */
 
-.menuHeading {
-    text-align: left;
-    padding-left: 25px;
-}
-
-.menuText {
-    text-align: left;
-    padding-left: 25px;
-}
-
-.menu-button {
+p.menu-button {
     color: white;
     background-color: black;
     border: none;
     border-radius: 4px;
     padding: 12px;
-    margin: 40px 40px 40px 25px;
-    text-decoration: none;
+    margin-left: 42.5%;
     font-size: .9rem;
+    width: 200px;
+    text-align: center;
+}
+
+a.menu-button {
+    text-decoration: none;
+    text-align: center;
+}
+
+.menuFig {
+    margin: 0 25%;
 }
 
 /* locations page */
