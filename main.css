@@ -34,6 +34,7 @@ body {
 .logo-fig img {
     width: 150px;
     height: 75px;
+    margin-top: 15px;
 }
     
 nav {
@@ -50,7 +51,11 @@ nav ul {
 
 nav a {
     padding: 5px;
-    color: rgb(85, 84, 84);
+    color: black;
+    background-color: rgb(209, 209, 209);
+    margin: 6px 25%;
+    border: none;
+    border-radius: 8px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -66,46 +71,59 @@ nav ul li a:hover {
 }
 
 figure.banner-img {
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 .home-quote {
     color: rgb(85, 84, 84);
-    font-size: .9rem;
+    font-size: .8rem;
     letter-spacing: 2px;
     line-height: 30px;
 }
 
 .fed {
     color: rgb(85, 84, 84);
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 .home-text {
     color: rgb(85, 84, 84);
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .home-text2 {
     color: rgb(85, 84, 84);
-    font-size: .8rem;
+    font-size: .7rem;
     margin-top: 15px;  
-}
-
-
-.menu-buttonContainer {
-    display: flex;
-    justify-content: center;
-    margin: 40px;
 }
 
 .menu-button {
     color: white;
     background-color: black;
     padding: 15px;
-    margin: 0px 40px;
+    margin: 0 auto;
     text-decoration: none;
     text-align: center;
+    font-size: .8rem;
+}
+
+.res-instruction {
+    font-size: .9rem;
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.reservation .res-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    padding: 13px;
+    margin: 20px 25% 0 25%;
+}
+
+.ing-text {
     font-size: .9rem;
 }
 
@@ -206,25 +224,30 @@ figure.banner-img {
 
 /* menu page */
 
-p.menu-button {
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 4px;
-    padding: 12px;
-    margin-left: 42.5%;
-    font-size: .9rem;
-    width: 200px;
-    text-align: center;
+#menuImage {
+    margin-bottom: 40px;
 }
 
 a.menu-button {
     text-decoration: none;
     text-align: center;
+    width: 10%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: .9rem;
+    margin-left: 42%;
+    text-align: center;
 }
 
 .menuFig {
-    margin: 0 25%;
+    margin: 45px 25% 0 25%;
+}
+
+.menuFig img {
+    width: 100%;
 }
 
 /* locations page */
