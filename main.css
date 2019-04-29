@@ -107,6 +107,10 @@ figure.banner-img {
     font-size: .8rem;
 }
 
+figure.menuPDF {
+    width: 75%;
+}
+
 .res-instruction {
     font-size: .9rem;
     margin: 25px 0px;
@@ -242,13 +246,14 @@ a.menu-button {
     text-align: center;
 }
 
-.menuFig {
-    margin: 45px 25% 0 25%;
+figure.menuPDF {
+    margin: 45px auto 0 auto;
+    width: 50%;
 }
 
-.menuFig img {
+.menuPDF img {
     width: 100%;
-}
+} 
 
 /* locations page */
 
@@ -327,7 +332,7 @@ select {
     border-radius: 3px;
     letter-spacing: 2px;
     padding: 13px;
-    margin: 20px 0px 0px 200px;
+    margin: 20px 50% 0px 50%;
 }
 
 .confirm-text {
